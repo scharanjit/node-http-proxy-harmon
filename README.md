@@ -14,8 +14,8 @@ This application is using node procy http harmon library to create web proxies
  
  How to Run this->
   
- stpes:
-   - npm install
+ 
+  1.) npm install
    If you are using ubuntu version 14.0.4 den node and npm version shoul be >1.0.0
    To install the latest version, Go to console and enter below mentioned commands.
    curl -sL https://deb.nodesource.com/setup | sudo bash -
@@ -23,12 +23,15 @@ This application is using node procy http harmon library to create web proxies
    sudo apt-get install nodejs
    sudo apt-get install npm
    
-   - cd projectFolder/examples
+   2.) Run the instance of spark on ur local machine or update the server IP in index.js file accordingly
    
    
-   - node index.js
+   3.) cd projectFolder/examples
    
    
+   node index.js
+   
+   4.) Go to web browser
    - http://localhost:8889/spark/
  
  

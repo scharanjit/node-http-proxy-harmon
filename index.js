@@ -43,9 +43,6 @@ module.exports = function harmonBinary(settings) {
         this.setHeader('location', location );  
       }
 
-      //console.log('urrrrl', reqUrl);
-      
-      //console.log( 'location:', this.getHeader('Location') );
       
       var contentType = this.getHeader('content-type');
 
@@ -84,9 +81,7 @@ module.exports = function harmonBinary(settings) {
     };
 
     res.write = function (data, encoding) {
-      // Only run data through trumpet if we have HTML
-      //console.log('res.isHtml', res.isHtml, res.isGziped);
-      //console.log( 'writedata', data );
+
       
       if (res.isHtml) {
       
